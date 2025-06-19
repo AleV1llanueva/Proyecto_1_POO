@@ -1,0 +1,24 @@
+Relación 1:1 (Moto - matricula)
+
+- motorcycle:
+Brand: Marca de la moto (Yamaha)
+model: Modelo (XT-250)
+color: Color primario de la moto (blanco)
+VIN: Codigo de chasis (########)
+owner: dueño
+
+plate -> register -> motorcycle
+motorcycle -> hasA -> plate 
+
+
+-placa:
+code: Codigo ALfanumerico
+country: Pais de emision
+yearOfIssue: Año de emision 
+state: Estado de la placa
+owner:dueño
+
+
+
+
+
